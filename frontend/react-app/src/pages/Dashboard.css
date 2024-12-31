@@ -1,0 +1,89 @@
+/* General Styles */
+.dashboard-container {
+    font-family: 'Arial', sans-serif;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #f4f7fc;
+  }
+  
+  .dashboard-header {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Controls Section */
+  .controls-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+  }
+  
+  /* Stats Section */
+  .stats-container {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .stats-container > div {
+    width: 48%;
+  }
+  
+  /* Charts Section */
+  .charts-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .charts-container > div {
+    width: 48%;
+  }
+  
+  /* Transactions Table Section */
+  .transactions-container {
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    overflow-x: auto;
+  }
+  
+  .transactions-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .transactions-container th, .transactions-container td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  
+  .transactions-container th {
+    background-color: #f9fafb;
+    color: #333;
+  }
+  
+  .transactions-container tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .transactions-container td {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
